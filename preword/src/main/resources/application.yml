@@ -1,6 +1,44 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/world?serverTimezone=Asia/Seoul
+#    username: root
+#    password: 111111
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/world?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://localhost:3306/world?serverTimeZone=UTC&CharacterEncoding=UTF-8
     username: root
     password: 111111
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 5000
+      connection-init-sql: SELECT 1
+      validation-timeout: 2000
+      minimum-idle: 10
+      idle-timeout: 600000
+      max-lifetime: 1800000
+
+server:
+  port: 8080
+  
+#  maximum-pool-size: 최대 pool size (defailt 10)
+#connection-timeout: (말 그대로)
+#connection-init-sql: SELECT 1
+#validation-timeout: 2000
+#minimum-idle: 연결 풀에서 HikariCP가 유지 관리하는 최소 유휴 연결 수
+#idle-timeout: 연결을위한 최대 유휴 시간
+#max-lifetime: 닫힌 후 pool 에있는 connection의 최대 수명 (ms)입니다.
+#auto-commit: auto commit 여부 (default true)
+#
+#////////////////////////////////////////////////////////////
+#만악에 Data Source를 Cutomize 하려면 Configuration class 를 만듭니다.
+#
+#@Configuration
+#public class DataSourceConfiguration {
+#
+#    @Bean(name="customDataSource")
+#    @ConfigurationProperties("spring.datasource")
+#    public DataSource customDataSource() {
+#        return DataSourceBuilder.create().build();
+#    }
+#}

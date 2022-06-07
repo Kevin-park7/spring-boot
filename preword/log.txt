@@ -1,82 +1,179 @@
-[INFO ] 03:42:37.531 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 12652 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 03:42:37.531 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 03:42:37.663 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 03:42:37.694 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 03:42:37.695 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:42:37.695 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 03:42:37.695 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 03:42:37.705 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 03:42:37.705 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 172 ms
-[INFO ] 03:42:37.777 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 03:42:37.783 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:42:37.785 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 03:42:37.804 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.311 seconds (JVM running for 245.495)
-[INFO ] 03:42:37.804 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 03:42:45.671 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[INFO ] 03:42:45.672 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[INFO ] 03:42:45.672 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
-[INFO ] 03:42:45.674 c.b.h.preword.info.InfoController - return com.bryan.hello.preword.info.model.Project@6f08321a
-[INFO ] 03:43:04.898 c.b.h.preword.info.InfoController - return com.bryan.hello.preword.info.model.Project@2000c393
-[INFO ] 03:45:14.166 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 12652 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 03:45:14.167 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 03:45:14.297 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 03:45:14.327 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 03:45:14.327 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:45:14.327 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 03:45:14.327 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 03:45:14.339 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 03:45:14.339 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 170 ms
-[INFO ] 03:45:14.410 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 03:45:14.415 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:45:14.417 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 03:45:14.436 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.295 seconds (JVM running for 402.127)
-[INFO ] 03:45:14.437 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 03:45:20.193 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[INFO ] 03:45:20.193 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-[INFO ] 03:45:20.194 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-[INFO ] 03:45:20.195 c.b.h.preword.info.InfoController - return com.bryan.hello.preword.info.model.Project@44debc66
-[INFO ] 03:45:47.432 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-[INFO ] 03:45:57.812 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 03:45:57.813 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[INFO ] 03:45:57.841 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[INFO ] 03:45:57.841 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[WARN ] 03:45:58.250 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 03:45:58.558 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 03:45:58.565 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:45:58.566 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 03:45:58.566 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 03:45:58.625 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 03:45:58.625 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 784 ms
-[INFO ] 03:45:58.981 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 03:45:58.991 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:45:59.010 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 03:45:59.040 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 1.529 seconds (JVM running for 2.04)
-[INFO ] 03:47:40.164 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 03:47:40.164 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 03:47:40.281 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 03:47:40.311 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 03:47:40.311 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:47:40.311 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 03:47:40.311 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 03:47:40.325 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 03:47:40.325 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 159 ms
-[INFO ] 03:47:40.403 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 03:47:40.408 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:47:40.410 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 03:47:40.428 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.287 seconds (JVM running for 103.429)
-[INFO ] 03:47:40.430 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 03:52:34.502 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 03:52:34.503 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 03:52:34.616 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 03:52:34.643 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 03:52:34.643 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:52:34.643 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 03:52:34.643 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 03:52:34.655 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 03:52:34.655 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 151 ms
-[WARN ] 03:52:34.662 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoController': Unsatisfied dependency expressed through field 'infoService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bryan.hello.preword.info.infoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
-[INFO ] 03:52:34.662 o.a.catalina.core.StandardService - Stopping service [Tomcat]
-[ERROR] 03:52:34.697 o.s.b.d.LoggingFailureAnalysisReporter - 
+[INFO ] 01:45:37.610 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:45:37.612 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:45:37.763 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 01:45:37.763 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 01:45:38.489 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:45:38.499 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:45:38.499 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:45:38.499 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:45:38.551 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:45:38.551 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 787 ms
+[INFO ] 01:45:38.887 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:45:38.898 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:45:38.917 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:45:38.947 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 1.674 seconds (JVM running for 2.324)
+[INFO ] 01:45:42.224 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 01:45:42.224 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 01:45:42.225 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 01:45:42.256 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 01:45:42.514 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 01:49:09.877 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 01:49:09.882 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 01:49:09.942 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:49:09.942 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:49:10.082 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:49:10.083 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:10.083 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:49:10.083 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:49:10.096 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:49:10.097 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 153 ms
+[INFO ] 01:49:10.179 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:49:10.185 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:10.186 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:49:10.204 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.287 seconds (JVM running for 213.581)
+[INFO ] 01:49:10.205 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 01:49:59.668 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:49:59.668 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:49:59.827 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:49:59.827 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:59.828 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:49:59.828 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:49:59.844 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:49:59.845 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 175 ms
+[INFO ] 01:49:59.937 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:49:59.942 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:59.944 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:49:59.960 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.323 seconds (JVM running for 263.337)
+[INFO ] 01:49:59.961 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 01:50:49.069 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 01:50:49.070 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 01:50:49.070 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 01:50:49.075 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 01:50:49.094 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 01:53:39.423 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 01:53:39.427 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 01:53:39.515 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:53:39.515 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:53:39.668 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:53:39.668 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:53:39.669 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:53:39.669 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:53:39.678 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:53:39.679 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 163 ms
+[INFO ] 01:53:39.746 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:53:39.752 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:53:39.753 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:53:39.770 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.286 seconds (JVM running for 483.147)
+[INFO ] 01:53:39.771 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:00:54.529 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:00:54.530 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:00:54.653 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:00:54.653 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:00:54.653 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:00:54.654 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:00:54.665 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:00:54.665 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 134 ms
+[INFO ] 02:00:54.734 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:00:54.738 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:00:54.740 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:00:54.757 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.247 seconds (JVM running for 918.133)
+[INFO ] 02:00:54.758 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:04:27.415 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:04:27.415 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:04:27.533 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:04:27.533 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:04:27.533 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:04:27.534 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:04:27.545 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:04:27.545 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
+[INFO ] 02:04:27.610 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:04:27.615 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:04:27.616 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:04:27.633 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.237 seconds (JVM running for 1131.009)
+[INFO ] 02:04:27.633 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:07:13.564 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:07:13.564 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:07:13.685 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:07:13.686 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:13.686 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:07:13.686 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:07:13.698 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:07:13.698 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 133 ms
+[INFO ] 02:07:13.784 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:07:13.790 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:13.792 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:07:13.810 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.266 seconds (JVM running for 1297.186)
+[INFO ] 02:07:13.811 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:07:18.342 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:07:18.342 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:07:18.461 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:07:18.461 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:18.462 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:07:18.462 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:07:18.472 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:07:18.472 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
+[INFO ] 02:07:18.539 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:07:18.543 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:18.545 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:07:18.562 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.241 seconds (JVM running for 1301.939)
+[INFO ] 02:07:18.563 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:09:52.060 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:09:52.060 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:09:52.176 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:09:52.177 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:09:52.177 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:09:52.177 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:09:52.186 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:09:52.186 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 125 ms
+[INFO ] 02:09:52.252 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:09:52.256 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:09:52.257 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:09:52.274 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.235 seconds (JVM running for 1455.65)
+[INFO ] 02:09:52.274 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:12:10.719 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:12:10.719 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:12:10.836 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:12:10.836 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:10.836 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:12:10.836 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:12:10.847 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:12:10.847 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 127 ms
+[INFO ] 02:12:10.909 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:12:10.912 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:10.914 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:12:10.931 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.232 seconds (JVM running for 1594.308)
+[INFO ] 02:12:10.931 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:12:43.027 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:12:43.027 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:12:43.153 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:12:43.154 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:43.154 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:12:43.154 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:12:43.165 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:12:43.165 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 137 ms
+[INFO ] 02:12:43.231 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:12:43.235 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:43.237 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:12:43.253 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.246 seconds (JVM running for 1626.63)
+[INFO ] 02:12:43.254 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:14:12.402 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 28344 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:14:12.403 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:14:12.548 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 02:14:12.548 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 02:14:13.230 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:14:13.238 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:13.238 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:14:13.238 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:14:13.289 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:14:13.289 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 741 ms
+[WARN ] 02:14:13.609 o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 02:14:13.622 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 02:14:13.625 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[INFO ] 02:14:13.629 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:13.629 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 02:14:13.632 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:13.633 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[ERROR] 02:14:13.673 o.s.b.d.LoggingFailureAnalysisReporter - 
 
 ***************************
 APPLICATION FAILED TO START
@@ -84,254 +181,44 @@ APPLICATION FAILED TO START
 
 Description:
 
-Field infoService in com.bryan.hello.preword.info.InfoController required a bean of type 'com.bryan.hello.preword.info.infoService' that could not be found.
-
-The injection point has the following annotations:
-	- @org.springframework.beans.factory.annotation.Autowired(required=true)
-
+Web server failed to start. Port 8080 was already in use.
 
 Action:
 
-Consider defining a bean of type 'com.bryan.hello.preword.info.infoService' in your configuration.
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
 
-[INFO ] 03:52:45.339 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 03:52:45.340 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 03:52:45.442 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 03:52:45.468 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 03:52:45.468 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:52:45.468 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 03:52:45.468 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 03:52:45.480 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 03:52:45.480 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 139 ms
-[INFO ] 03:52:45.555 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 03:52:45.560 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 03:52:45.562 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 03:52:45.580 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.261 seconds (JVM running for 408.581)
-[INFO ] 03:52:45.581 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:01:39.452 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:01:39.452 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:01:39.552 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:01:39.583 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:01:39.583 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:01:39.584 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:01:39.584 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:01:39.594 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:01:39.594 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 140 ms
-[INFO ] 04:01:39.658 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:01:39.662 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:01:39.664 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:01:39.683 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.252 seconds (JVM running for 942.684)
-[INFO ] 04:01:39.684 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:08:50.596 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:08:50.597 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:08:50.696 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:08:50.722 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:08:50.723 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:08:50.723 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:08:50.723 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:08:50.733 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:08:50.733 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 135 ms
-[INFO ] 04:08:50.795 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:08:50.799 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:08:50.801 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:08:50.819 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.241 seconds (JVM running for 1373.819)
-[INFO ] 04:08:50.820 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:10:34.171 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:10:34.171 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:10:34.266 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:10:34.293 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:10:34.293 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:10:34.293 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:10:34.293 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:10:34.303 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:10:34.303 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 131 ms
-[INFO ] 04:10:34.366 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:10:34.371 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:10:34.372 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:10:34.390 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.239 seconds (JVM running for 1477.39)
-[INFO ] 04:10:34.391 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:11:19.888 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:11:19.888 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:11:19.988 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:11:20.013 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:11:20.013 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:11:20.013 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:11:20.013 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:11:20.023 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:11:20.023 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 133 ms
-[INFO ] 04:11:20.092 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:11:20.097 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:11:20.099 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:11:20.117 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.248 seconds (JVM running for 1523.117)
-[INFO ] 04:11:20.118 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:16:21.926 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:16:21.926 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:16:22.024 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:16:22.050 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:16:22.050 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:16:22.050 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:16:22.050 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:16:22.061 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:16:22.061 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 134 ms
-[WARN ] 04:16:22.066 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.bryan.hello.preword.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@67258903]
-[INFO ] 04:16:22.067 o.a.catalina.core.StandardService - Stopping service [Tomcat]
-[ERROR] 04:16:22.087 o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.bryan.hello.preword.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@67258903]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.bryan.hello.preword.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@67258903]
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
-	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
-	... 23 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: List
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
-	... 25 common frames omitted
-Caused by: java.lang.ClassNotFoundException: List
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	at java.base/java.lang.Class.forName0(Native Method)
-	at java.base/java.lang.Class.forName(Class.java:468)
-	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	... 29 common frames omitted
-[INFO ] 04:16:55.126 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:16:55.126 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:16:55.239 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:16:55.265 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:16:55.266 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:16:55.266 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:16:55.266 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:16:55.284 o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:16:55.284 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 157 ms
-[WARN ] 04:16:55.298 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.bryan.hello.preword.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@34ebe844]
-[INFO ] 04:16:55.298 o.a.catalina.core.StandardService - Stopping service [Tomcat]
-[ERROR] 04:16:55.324 o.s.boot.SpringApplication - Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.bryan.hello.preword.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@34ebe844]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
-	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.bryan.hello.preword.info.repository.CityRepository] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@34ebe844]
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485)
-	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
-	... 23 common frames omitted
-Caused by: java.lang.NoClassDefFoundError: List
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3325)
-	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2466)
-	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467)
-	... 25 common frames omitted
-Caused by: java.lang.ClassNotFoundException: List
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	at java.base/java.lang.Class.forName0(Native Method)
-	at java.base/java.lang.Class.forName(Class.java:468)
-	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
-	... 29 common frames omitted
-[INFO ] 04:17:19.216 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:17:19.216 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:17:19.311 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:17:19.334 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:17:19.335 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:17:19.335 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:17:19.335 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:17:19.346 o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:17:19.346 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
-[INFO ] 04:17:19.424 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:17:19.430 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:17:19.432 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:17:19.449 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.252 seconds (JVM running for 1882.449)
-[INFO ] 04:17:19.450 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:18:47.570 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:18:47.570 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:18:47.671 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:18:47.697 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:18:47.697 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:18:47.697 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:18:47.697 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:18:47.708 o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:18:47.708 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 136 ms
-[INFO ] 04:18:47.777 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:18:47.782 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:18:47.784 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:18:47.802 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.251 seconds (JVM running for 1970.802)
-[INFO ] 04:18:47.803 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:19:13.795 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:19:13.795 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:19:13.892 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:19:13.918 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:19:13.919 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:19:13.919 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:19:13.919 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:19:13.929 o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:19:13.930 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 133 ms
-[INFO ] 04:19:13.995 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:19:13.999 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:19:14.001 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:19:14.019 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.243 seconds (JVM running for 1997.02)
-[INFO ] 04:19:14.020 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:25:38.748 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 24820 (C:\workspace\preword\bin\main started by PSW in C:\workspace\preword)
-[INFO ] 04:25:38.748 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
-[WARN ] 04:25:38.849 o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.bryan.hello.preword]' package. Please check your configuration.
-[INFO ] 04:25:38.875 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-[INFO ] 04:25:38.875 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:25:38.875 o.a.catalina.core.StandardService - Starting service [Tomcat]
-[INFO ] 04:25:38.875 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
-[INFO ] 04:25:38.885 o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-[INFO ] 04:25:38.885 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 136 ms
-[INFO ] 04:25:38.956 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-[INFO ] 04:25:38.960 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-[INFO ] 04:25:38.962 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-[INFO ] 04:25:38.979 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.251 seconds (JVM running for 2381.98)
-[INFO ] 04:25:38.980 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
-[INFO ] 04:25:39.049 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 02:14:27.885 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 02:14:43.212 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:14:43.214 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:14:43.360 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 02:14:43.361 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 02:14:44.016 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:14:44.023 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:44.024 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:14:44.024 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:14:44.075 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:14:44.075 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 714 ms
+[INFO ] 02:14:44.419 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:14:44.430 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:44.450 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:14:44.480 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 1.571 seconds (JVM running for 2.073)
+[INFO ] 02:17:19.050 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 02:17:19.050 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 02:17:19.052 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 02:17:28.072 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 02:17:28.320 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 02:21:59.730 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 02:21:59.735 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 02:21:59.799 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:21:59.799 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:21:59.952 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:21:59.953 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:21:59.953 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:21:59.953 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:21:59.964 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:21:59.965 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 164 ms
+[INFO ] 02:22:00.053 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:22:00.058 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:22:00.061 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:22:00.079 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.304 seconds (JVM running for 437.673)
+[INFO ] 02:22:00.080 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
