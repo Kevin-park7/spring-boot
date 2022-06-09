@@ -102,4 +102,28 @@ public class InfoController {
 //		List<City> cityList = infoService.findCityByCodeAndPopulation(ctCode, population);
 //		return cityList;
 //	}
+	
+	//http://localhost:8080/info/cityAdd/TEST/TST/Seoul/10
+//	@GetMapping("cityAdd/{name}/{countryCode}/{district}/{population}")
+//	public Object cityAdd(@PathVariable(value="name") String name
+//			, @PathVariable(value="countryCode") String ctCode
+//			, @PathVariable(value="district") String district
+//			, @PathVariable(value="population") int population) {
+//		
+//		log.debug("name = {}, ctCode = {}, district = {}, population ={}", name, ctCode, district, population);
+//		
+//		return "ok";
+//	}
+	
+	//http://localhost:8080/info/cityAdd?name=TEST&countryCode=TST&district=Seoul&population=100
+	@GetMapping("cityAdd")
+	public Object cityAdd(@RequestParam(value="name", required=true) String name
+			, @RequestParam(value="countryCode", required=true) String ctCode
+			, @RequestParam(value="district", required=true) String district
+			, @RequestParam(value="population", required = false, defaultValue = "0") int population) {
+		
+		log.debug("name = {}, ctCode = {}, district = {}, population ={}", name, ctCode, district, population);
+		
+		return "ok";
+	}
 }

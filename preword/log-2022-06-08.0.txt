@@ -1,0 +1,888 @@
+[INFO ] 01:45:37.610 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:45:37.612 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:45:37.763 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 01:45:37.763 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 01:45:38.489 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:45:38.499 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:45:38.499 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:45:38.499 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:45:38.551 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:45:38.551 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 787 ms
+[INFO ] 01:45:38.887 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:45:38.898 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:45:38.917 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:45:38.947 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 1.674 seconds (JVM running for 2.324)
+[INFO ] 01:45:42.224 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 01:45:42.224 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 01:45:42.225 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 01:45:42.256 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 01:45:42.514 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 01:49:09.877 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 01:49:09.882 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 01:49:09.942 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:49:09.942 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:49:10.082 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:49:10.083 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:10.083 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:49:10.083 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:49:10.096 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:49:10.097 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 153 ms
+[INFO ] 01:49:10.179 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:49:10.185 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:10.186 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:49:10.204 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.287 seconds (JVM running for 213.581)
+[INFO ] 01:49:10.205 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 01:49:59.668 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:49:59.668 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:49:59.827 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:49:59.827 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:59.828 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:49:59.828 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:49:59.844 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:49:59.845 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 175 ms
+[INFO ] 01:49:59.937 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:49:59.942 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:49:59.944 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:49:59.960 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.323 seconds (JVM running for 263.337)
+[INFO ] 01:49:59.961 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 01:50:49.069 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 01:50:49.070 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 01:50:49.070 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 01:50:49.075 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 01:50:49.094 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 01:53:39.423 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 01:53:39.427 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 01:53:39.515 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 01:53:39.515 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 01:53:39.668 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 01:53:39.668 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:53:39.669 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 01:53:39.669 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 01:53:39.678 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 01:53:39.679 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 163 ms
+[INFO ] 01:53:39.746 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 01:53:39.752 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 01:53:39.753 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 01:53:39.770 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.286 seconds (JVM running for 483.147)
+[INFO ] 01:53:39.771 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:00:54.529 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:00:54.530 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:00:54.653 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:00:54.653 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:00:54.653 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:00:54.654 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:00:54.665 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:00:54.665 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 134 ms
+[INFO ] 02:00:54.734 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:00:54.738 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:00:54.740 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:00:54.757 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.247 seconds (JVM running for 918.133)
+[INFO ] 02:00:54.758 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:04:27.415 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:04:27.415 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:04:27.533 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:04:27.533 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:04:27.533 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:04:27.534 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:04:27.545 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:04:27.545 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
+[INFO ] 02:04:27.610 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:04:27.615 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:04:27.616 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:04:27.633 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.237 seconds (JVM running for 1131.009)
+[INFO ] 02:04:27.633 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:07:13.564 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:07:13.564 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:07:13.685 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:07:13.686 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:13.686 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:07:13.686 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:07:13.698 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:07:13.698 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 133 ms
+[INFO ] 02:07:13.784 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:07:13.790 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:13.792 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:07:13.810 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.266 seconds (JVM running for 1297.186)
+[INFO ] 02:07:13.811 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:07:18.342 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:07:18.342 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:07:18.461 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:07:18.461 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:18.462 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:07:18.462 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:07:18.472 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:07:18.472 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
+[INFO ] 02:07:18.539 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:07:18.543 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:07:18.545 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:07:18.562 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.241 seconds (JVM running for 1301.939)
+[INFO ] 02:07:18.563 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:09:52.060 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:09:52.060 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:09:52.176 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:09:52.177 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:09:52.177 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:09:52.177 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:09:52.186 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:09:52.186 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 125 ms
+[INFO ] 02:09:52.252 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:09:52.256 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:09:52.257 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:09:52.274 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.235 seconds (JVM running for 1455.65)
+[INFO ] 02:09:52.274 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:12:10.719 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:12:10.719 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:12:10.836 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:12:10.836 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:10.836 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:12:10.836 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:12:10.847 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:12:10.847 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 127 ms
+[INFO ] 02:12:10.909 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:12:10.912 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:10.914 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:12:10.931 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.232 seconds (JVM running for 1594.308)
+[INFO ] 02:12:10.931 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:12:43.027 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 14268 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:12:43.027 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:12:43.153 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:12:43.154 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:43.154 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:12:43.154 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:12:43.165 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:12:43.165 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 137 ms
+[INFO ] 02:12:43.231 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:12:43.235 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:12:43.237 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:12:43.253 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.246 seconds (JVM running for 1626.63)
+[INFO ] 02:12:43.254 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:14:12.402 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 28344 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:14:12.403 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:14:12.548 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 02:14:12.548 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 02:14:13.230 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:14:13.238 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:13.238 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:14:13.238 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:14:13.289 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:14:13.289 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 741 ms
+[WARN ] 02:14:13.609 o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 02:14:13.622 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 02:14:13.625 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[INFO ] 02:14:13.629 o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:13.629 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 02:14:13.632 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:13.633 o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+[ERROR] 02:14:13.673 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 02:14:27.885 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[INFO ] 02:14:43.212 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:14:43.214 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:14:43.360 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 02:14:43.361 o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 02:14:44.016 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:14:44.023 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:44.024 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:14:44.024 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:14:44.075 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:14:44.075 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 714 ms
+[INFO ] 02:14:44.419 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:14:44.430 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:14:44.450 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:14:44.480 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 1.571 seconds (JVM running for 2.073)
+[INFO ] 02:17:19.050 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 02:17:19.050 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 02:17:19.052 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 02:17:28.072 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 02:17:28.320 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 02:21:59.730 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 02:21:59.735 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 02:21:59.799 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:21:59.799 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:21:59.952 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:21:59.953 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:21:59.953 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:21:59.953 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:21:59.964 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:21:59.965 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 164 ms
+[INFO ] 02:22:00.053 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:22:00.058 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:22:00.061 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:22:00.079 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.304 seconds (JVM running for 437.673)
+[INFO ] 02:22:00.080 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:31:01.850 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:31:01.851 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:31:01.981 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:31:01.982 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:31:01.982 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:31:01.982 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:31:01.996 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:31:01.996 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 144 ms
+[WARN ] 02:31:02.001 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@77f61863] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+[INFO ] 02:31:02.002 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:31:02.038 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@77f61863] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: InfoService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3296)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2515)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: InfoService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 27 common frames omitted
+[INFO ] 02:38:19.385 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:38:19.385 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:38:19.508 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:38:19.508 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:38:19.508 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:38:19.508 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:38:19.519 o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:38:19.519 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 133 ms
+[WARN ] 02:38:19.525 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoController' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bryan.hello.preword.info.InfoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[INFO ] 02:38:19.526 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:38:19.548 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.bryan.hello.preword.info.InfoController required a bean of type 'com.bryan.hello.preword.info.InfoService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bryan.hello.preword.info.InfoService' in your configuration.
+
+[INFO ] 02:38:24.076 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:38:24.076 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:38:24.193 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:38:24.194 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:38:24.194 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:38:24.194 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:38:24.204 o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:38:24.204 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 127 ms
+[INFO ] 02:38:24.275 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:38:24.279 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:38:24.281 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:38:24.297 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.24 seconds (JVM running for 1421.891)
+[INFO ] 02:38:24.298 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:44:09.974 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:44:09.974 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:44:10.092 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:44:10.093 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:44:10.093 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:44:10.093 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:44:10.104 o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:44:10.104 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 128 ms
+[WARN ] 02:44:10.121 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoController' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoService' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+[INFO ] 02:44:10.122 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:44:10.142 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoController' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoService' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoService' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 52 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at com.bryan.hello.preword.info.repository.CityRepository.<init>(CityRepository.java:21)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 54 common frames omitted
+[INFO ] 02:45:28.175 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:45:28.175 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:45:28.296 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:45:28.296 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:45:28.296 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:45:28.296 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:45:28.306 o.a.c.c.C.[Tomcat-3].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:45:28.306 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 129 ms
+[WARN ] 02:45:28.324 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoController' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoService' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+[INFO ] 02:45:28.324 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:45:28.346 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoController' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoService' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoService' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cityRepository' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\repository\CityRepository.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bryan.hello.preword.info.repository.CityRepository]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	... 52 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+	CityRowMapper cannot be resolved to a type
+
+	at com.bryan.hello.preword.info.repository.CityRepository.<init>(CityRepository.java:21)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211)
+	... 54 common frames omitted
+[INFO ] 02:50:15.692 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:50:15.692 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:50:15.825 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:50:15.825 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:50:15.825 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:50:15.825 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:50:15.836 o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:50:15.836 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 143 ms
+[INFO ] 02:50:15.912 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:50:15.916 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:50:15.918 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:50:15.936 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.267 seconds (JVM running for 2133.53)
+[INFO ] 02:50:15.937 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:50:20.477 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:50:20.477 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:50:20.594 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:50:20.596 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:50:20.596 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:50:20.596 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:50:20.607 o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:50:20.607 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 128 ms
+[INFO ] 02:50:20.671 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:50:20.675 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:50:20.677 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:50:20.695 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.236 seconds (JVM running for 2138.289)
+[INFO ] 02:50:20.696 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:54:32.577 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:54:32.577 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:54:32.693 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:54:32.693 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:54:32.694 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:54:32.694 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:54:32.704 o.a.c.c.C.[Tomcat-4].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:54:32.704 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 126 ms
+[WARN ] 02:54:32.710 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a4d0149] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+[INFO ] 02:54:32.710 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:54:32.731 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a4d0149] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: InfoService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3296)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2515)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: InfoService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 27 common frames omitted
+[INFO ] 02:55:19.140 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:55:19.140 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:55:19.251 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:55:19.251 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:55:19.251 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:55:19.251 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:55:19.261 o.a.c.c.C.[Tomcat-5].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:55:19.261 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 120 ms
+[WARN ] 02:55:19.267 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@70ed97f9] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+[INFO ] 02:55:19.267 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:55:19.287 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@70ed97f9] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: InfoService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3296)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2515)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: InfoService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 27 common frames omitted
+[INFO ] 02:55:50.347 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:55:50.347 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:55:50.460 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:55:50.460 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:55:50.461 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:55:50.461 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:55:50.470 o.a.c.c.C.[Tomcat-6].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:55:50.470 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 122 ms
+[WARN ] 02:55:50.476 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3b0d290d] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+[INFO ] 02:55:50.476 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:55:50.496 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3b0d290d] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: InfoService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3296)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2515)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: InfoService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 27 common frames omitted
+[INFO ] 02:55:55.028 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:55:55.028 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:55:55.146 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:55:55.146 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:55:55.146 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:55:55.146 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:55:55.156 o.a.c.c.C.[Tomcat-7].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:55:55.156 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 127 ms
+[WARN ] 02:55:55.161 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@847e10e] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+[INFO ] 02:55:55.162 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:55:55.182 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@847e10e] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: InfoService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3296)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2515)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: InfoService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 27 common frames omitted
+[INFO ] 02:56:24.255 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:56:24.255 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:56:24.371 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:56:24.372 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:56:24.372 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:56:24.372 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:56:24.382 o.a.c.c.C.[Tomcat-8].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:56:24.382 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 126 ms
+[WARN ] 02:56:24.388 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'infoController' defined in file [C:\Users\PSW\git\repository2\preword\bin\main\com\bryan\hello\preword\info\InfoController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.bryan.hello.preword.info.InfoService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[INFO ] 02:56:24.388 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:56:24.410 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.bryan.hello.preword.info.InfoController required a bean of type 'com.bryan.hello.preword.info.InfoService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.bryan.hello.preword.info.InfoService' in your configuration.
+
+[INFO ] 02:56:29.934 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:56:29.934 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:56:30.046 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:56:30.046 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:56:30.046 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:56:30.046 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:56:30.057 o.a.c.c.C.[Tomcat-9].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:56:30.057 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 122 ms
+[INFO ] 02:56:30.122 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:56:30.126 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:56:30.128 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:56:30.144 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.227 seconds (JVM running for 2507.738)
+[INFO ] 02:56:30.145 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 02:58:20.974 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:58:20.974 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:58:21.131 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:58:21.131 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:58:21.132 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:58:21.132 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:58:21.141 o.a.c.c.C.[Tomcat-9].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:58:21.141 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 165 ms
+[WARN ] 02:58:21.147 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4eefdeb9] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+[INFO ] 02:58:21.147 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[ERROR] 02:58:21.167 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'infoController': Resolution of declared constructors on bean Class [com.bryan.hello.preword.info.InfoController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@4eefdeb9] failed; nested exception is java.lang.NoClassDefFoundError: InfoService
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.bryan.hello.preword.PrewordApplication.main(PrewordApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: InfoService
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3296)
+	at java.base/java.lang.Class.getDeclaredConstructors(Class.java:2515)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:304)
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: InfoService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:606)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:468)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	... 27 common frames omitted
+[INFO ] 02:59:07.534 c.b.hello.preword.PrewordApplication - Starting PrewordApplication using Java 15.0.2 on DESKTOP-JC3EIPB with PID 27440 (C:\Users\PSW\git\repository2\preword\bin\main started by PSW in C:\Users\PSW\git\repository2\preword)
+[INFO ] 02:59:07.534 c.b.hello.preword.PrewordApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 02:59:07.650 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[INFO ] 02:59:07.650 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:59:07.650 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 02:59:07.650 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+[INFO ] 02:59:07.662 o.a.c.c.C.[.[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 02:59:07.662 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 127 ms
+[INFO ] 02:59:07.728 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 02:59:07.733 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 02:59:07.734 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 02:59:07.751 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.234 seconds (JVM running for 2665.345)
+[INFO ] 02:59:07.752 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 03:14:56.259 o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
