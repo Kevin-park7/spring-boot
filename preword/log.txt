@@ -39,3 +39,8 @@
 [INFO ] 23:51:59.978 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
 [INFO ] 23:51:59.990 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
 [INFO ] 23:51:59.990 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 157 ms
+[INFO ] 23:52:00.092 o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 23:52:00.099 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 23:52:00.104 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[INFO ] 23:52:00.125 c.b.hello.preword.PrewordApplication - Started PrewordApplication in 0.313 seconds (JVM running for 169.84)
+[INFO ] 23:52:00.125 o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
